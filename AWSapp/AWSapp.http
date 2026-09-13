@@ -1,0 +1,6 @@
+@AWSapp_HostAddress = http://localhost:5193
+
+GET {{AWSapp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
