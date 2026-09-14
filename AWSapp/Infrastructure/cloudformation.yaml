@@ -129,6 +129,9 @@ Resources:
     Type: AWS::ECS::Cluster
     Properties:
       ClusterName: awsapp-cfn-cluster
+      ClusterSettings:
+      - Name: containerInsights
+        Value: enhanced
 
   ECSTaskExecutionRole:
     Type: AWS::IAM::Role
