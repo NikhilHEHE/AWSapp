@@ -115,7 +115,7 @@ Resources:
       DBName: AWSappDb
       Port: 5432
       PubliclyAccessible: false
-      BackupRetentionPeriod: 7
+      BackupRetentionPeriod: 1
       DBSubnetGroupName: !Ref RDSSubnetGroup
       VPCSecurityGroups:
         - !GetAtt RDSSecurityGroup.GroupId
